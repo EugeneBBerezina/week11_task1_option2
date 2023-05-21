@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" type="text/css" href="assets/style/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+</head>
+
+<body>
+    <h1 class="title">Корзина MEZZATORRE</h1>
+    <!-- контейнер общий-->
+    <div class="cart_container_all">
+        <!--контейнер с бордером-->
+        <div class="cart_container">
+            <!--1 строчка-->
+            <div class="cart_position">
+                <!--Изображение-->
+                <div> <img class="cart_img" src="assets/images/foto1.jpg" alt="Сумка черная"> </div>
+                <!--Описание-->
+                <div class="cart_about">
+                    <p class="cart_title"><b>Прямоугольная сумка на ремне</b></p>
+                    <ul class="list_style">
+                        <li>Цвет: Черный</li>
+                        <li>Материал: искусcтвенная кожа</li>
+                        <li>Количество: 1</li>
+                    </ul>
+                </div>
+                <!--Цена-->
+                <div class="cart_price"><span id="price_1">15990</span>&nbspруб.</div>
+            </div>
+
+            <!--2 строчка-->
+            <div class="cart_position">
+                <!--Изображение-->
+                <div><img class="cart_img" src="assets/images/foto2.jpg" alt="Сумка пудровая"></div>
+                <!--Описание-->
+                <div class="cart_about">
+                    <p class="cart_title"><b>Сумка на ремне</b></p>
+                    <ul class="list_style">
+                        <li>Цвет: Пудра</li>
+                        <li>Материал: искусcтвенная кожа</li>
+                        <li>Количество: 1</li>
+                    </ul>
+                </div>
+                <!--Цена-->
+                <div class="cart_price"><span id="price_2">12990</span> &nbspруб.</div>
+            </div>
+            <!--3 строчка-->
+            <div class="cart_position">
+                <!--Изображение-->
+                <div><img class="cart_img" src="assets/images/foto3.jpg" alt="Сумка черная"></div>
+                <!--Описание-->
+                <div class="cart_about">
+                    <p class="cart_title"><b>Сумка на цепочке</b></p>
+                    <ul class="list_style ">
+                        <li>Цвет: Черный</li>
+                        <li>Материал: искусcтвенная кожа</li>
+                        <li>Количество: 1</li>
+                    </ul>
+                </div>
+                <!--Цена-->
+                <div class="cart_price"><span id="price_3">9990</span>&nbspруб.</div>
+            </div>
+            <!--4 строчка-->
+            <div class="cart_position">
+                <!--Изображение-->
+                <div><img class="cart_img" src="assets/images/foto4.jpg" alt="Сумка пудровая"></div>
+                <!--Описание-->
+                <div class="cart_about">
+                    <p class="cart_title"><b>Сумка на цепочке</b></p>
+                    <ul class="list_style ">
+                        <li>Цвет: Пудра</li>
+                        <li>Материал: искусcтвенная кожа</li>
+                        <li>Количество: 1</li>
+                    </ul>
+                </div>
+                <!--Цена-->
+                <div class="cart_price"><span id="price_4">9990</span> &nbspруб.</div>
+            </div>
+
+        </div>
+        <div class="cart_result">
+            <div class="cart_button">
+                <button onclick="salePrice()" class="button_sale" type="button" id="sale">Использовать купон на 20%</button>
+            </div>
+            <div class="cart_total">
+                <div class="text_total"><b>ИТОГО:</b></div>
+                <div class="button_total" id="total"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html> 
